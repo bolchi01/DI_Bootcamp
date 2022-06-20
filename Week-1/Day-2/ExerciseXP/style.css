@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+nav {
+    background-color: grey;
+    height: 5vh;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    top: 10px;
+}
+
+.icon {
+    position: absolute;
+    left: 5%;
+}
+
+.product {
+    position: absolute;
+    right: 5%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
