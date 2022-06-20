@@ -1,0 +1,64 @@
+.italicised {
+    font-style: italic;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+
+.centre {
+    text-align: center;
+}
+
+#cat_list {
+   margin-left: 50px; 
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid orange;
+}
+
+#box {
+    text-align: center;
+    margin: 30px;
+}
+
+#red_box {
+    text-align: center;
+    color: red;
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+
+#red_text {
+    padding: 0px;
+    margin: 0px;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid black;
+}
+

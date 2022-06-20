@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-image: url("thor.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFFFFF;
+}
+
+
+ul {
+    margin: 0px;
+    background-color: #333;
+    padding: 20px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+
+li {
+    display: inline;
+    color: white;
+    font-size: 50px;
+}
+
+.right {
+    float: right;
+    right: 10px;
+    padding: 0px 30px;
+}
+
+article {
+    margin-left: 30px;
+    margin-top: 20%;
+    color: black
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+p {
+    margin-right: 70%;
+}

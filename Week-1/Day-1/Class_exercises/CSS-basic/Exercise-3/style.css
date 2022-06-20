@@ -1,0 +1,27 @@
+
+* {
+    box-sizing: border-box;
+}
+
+section div {
+    display: inline-block;
+    width: 10px;
+    height: 30px;
+    margin: -2px; 
+}
+
+#blue {
+    display: inline-block;
+    background-color: blue;
+}
+
+#white {
+    display: inline-block;
+    background-color: white;
+}
+
+#red {
+    display: inline-block;
+    background-color: red;
+}
+
