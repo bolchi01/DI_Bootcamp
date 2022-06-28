@@ -1,5 +1,5 @@
-
+// Can't do this exercise...
 do {
-    let digit = prompt("Give me a number: ");
+    let digit = parseInt(prompt("Give me a number: "));
 }
-while (digit <= 10);
+while (digit > 10);
