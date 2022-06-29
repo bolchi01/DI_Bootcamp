@@ -21,14 +21,15 @@ shoppingList = ["banana", "orange", "apple"];
 function myBill() {
     let bill = 0;
     for (x in shoppingList) {
-        if (stock[shoppingList[x]]   == 0) {
-            console.log(shoppingList[x] + "is not in stock");
+        if (stock[shoppingList[x]] == 0) {
+            break
         }
         else {
-            bill += stock[shoppingList[x]] * prices[shoppingList[x]]
+            bill += prices[shoppingList[x]]
+            stock[shoppingList[x]]--;
         }
     }
-    console.log(bill)
+    console.log("The sum of your shopping cart is " + bill)
 }
 
 myBill();
