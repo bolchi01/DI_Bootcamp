@@ -1,4 +1,4 @@
-// Can't do this exercise...
+// 
 let digit;
 
 do {
