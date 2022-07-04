@@ -1,7 +1,9 @@
 document.getElementById('navBar').setAttribute('id', 'socialNetworkNavigation');
 
-logout = document.createElement('ls');
+let ul = document.getElementsByTagName('ul')[0];
 
-logout.innerHTML = "Logout";
+logout = document.createElement('li');
 
-document.getElementsByTagName('ul')[0].appendChild(logout);
+logout.textContent = "Logout";
+
+ul.appendChild(logout);
