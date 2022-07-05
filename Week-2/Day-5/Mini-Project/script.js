@@ -37,4 +37,3 @@ function compareNumbers(data) {
     }
 }
 
-compareNumbers(data);

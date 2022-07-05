@@ -1,5 +1,4 @@
-//with one loop - do not quite understand how to do it
-
+//with one loop 
 for (i = 0; i < 6; i++) {
     pyramid = "*".repeat(i+1);
     console.log(pyramid);

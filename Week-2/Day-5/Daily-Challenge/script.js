@@ -10,7 +10,7 @@ function beerSong() {
 
     // i needs to equal 1, rather than 0, as we will use it later in the song
     for(let i = 1; number > 0; i++){
-        //for the remainder at the end
+        //for the remainder at the end if the number of bottles remaining is less than the amount you need to take off
     if(i > number){
         i = number;
     }
