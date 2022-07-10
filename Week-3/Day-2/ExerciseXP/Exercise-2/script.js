@@ -40,11 +40,12 @@ userForm.addEventListener("submit", addUser);
 
 function addUser (ev) {
   ev.preventDefault(); // to prevent the form from refreshing
-  let objUser = {
-    fname : userForm.elements.fname.value,
-    lname : userForm.elements.lname.value,
-  }
-  users.push(objUser);
+  // 
+  // let objUser = {
+  //   fname : userForm.elements.fname.value,
+  //   lname : userForm.elements.lname.value,
+  // }
+  // users.push(objUser);
   let ul = document.getElementsByClassName('usersAnswer')[0];
   fnameText = userForm.elements.fname.value;
   lnameText = userForm.elements.lname.value;
