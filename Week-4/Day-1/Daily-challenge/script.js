@@ -29,6 +29,8 @@ let usernames = [];
 
 gameInfo.forEach((element) => usernames.push(`${element.username}!`))
 
+console.log(usernames)
+
 let winners = [];
 let count = 0;
 
@@ -38,12 +40,11 @@ const winnerFunction = gameInfo.forEach (
     }
 )
 
+console.log(winners)
+
 let scoreCount = 0;
 
-gameInfo.forEach (
-    function(element) {
-        scoreCount += element.score
-    }
-)
+const gameScore = gameInfo.forEach((element) => scoreCount+= element.score) 
+
 
 console.log(scoreCount);
