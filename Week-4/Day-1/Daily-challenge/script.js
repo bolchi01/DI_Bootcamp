@@ -27,16 +27,12 @@ const gameInfo = [
 
 let usernames = [];
 
-gameInfo.forEach(
-	function (element) {
-		usernames.push(`${element.username}!`)
-	}
-)
+gameInfo.forEach((element) => usernames.push(`${element.username}!`))
 
 let winners = [];
 let count = 0;
 
-gameInfo.forEach (
+const winnerFunction = gameInfo.forEach (
     function(element) {
         element.score > 5 ? winners.push(element.username): count++ // how do I just skip if the condition is not met?
     }
