@@ -6,7 +6,7 @@ function checkText (){
 	console.log("Still in the function",text);
 }
 
-console.log("before the function", text); // "before the function Hello World"
+console.log("before the function", text); // "before the function Hell"
 
 checkText() //still in the function Hello World
 

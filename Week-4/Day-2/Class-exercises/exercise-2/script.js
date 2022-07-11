@@ -21,7 +21,6 @@ function starWars(spaceShip) {
 
     function createCharacter(firstName, lastName = "Smith") {
             characters.push(' ' + firstName + ' ' + lastName + ' ' + spaceShip);
-            console.log(characters)
         }
 
     function displayCharacter() {

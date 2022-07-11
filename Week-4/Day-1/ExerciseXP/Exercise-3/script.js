@@ -10,6 +10,3 @@ const isStringOne = (possibleString) => {
 
 isStringOne(5)
 
-// const ageCheckerTwo = (age) => age > 18 ? "You can drive" : "You cannot drive";
-
-// ageCheckerTwo(16);
