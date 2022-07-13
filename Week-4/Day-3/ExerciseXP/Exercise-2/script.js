@@ -7,20 +7,13 @@ let users = [{ firstName: 'Bradley', lastName: 'Bouley', role: 'Full Stack Resid
              { firstName: 'Zach', lastName: 'Klabunde', role: 'Instructor'}];
 
 
-let newArr = users.map((val, i, arr) => {
+
+let fullStackResident = users.filter((person) => person["role"].includes("Full Stack Resident"))
+
+let newArr = fullStackResident.map((val, i, arr) => {
     return `Hello ${val["firstName"]}`
 })
 
 console.log(newArr);
 
 
-// myArr = [10,20,30,40];
-
-// let newArr = myArr.map((val, i, arr) => {
-//   return {
-//     value: val,
-//     index: i
-//   };
-// });
-
-// console.log(newArr);
