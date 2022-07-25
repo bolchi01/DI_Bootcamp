@@ -1,0 +1,27 @@
+-- Database: dvdrental
+
+-- DROP DATABASE IF EXISTS dvdrental;
+
+-- CREATE DATABASE dvdrental
+--     WITH
+--     OWNER = postgres
+--     ENCODING = 'UTF8'
+--     LC_COLLATE = 'C'
+--     LC_CTYPE = 'C'
+--     TABLESPACE = pg_default
+--     CONNECTION LIMIT = -1;
+
+-- SELECT * FROM inventory;
+-- SELECT * FROM customer;
+-- SELECT first_name, last_name FROM customer;
+-- SELECT create_date FROM customer;
+-- SELECT * FROM customer ORDER BY first_name DESC;
+-- SELECT actors.first_name, actors.last_name, movies.movie_title
+-- FROM actors
+-- INNER JOIN movies
+-- ON actors.actor_id = movies.actor_playing_id;
+
+    SELECT payment.amount, payment.payment_date FROM customer
+    INNER JOIN payment
+    ON customer.customer_id = payment.customer_id;
+
