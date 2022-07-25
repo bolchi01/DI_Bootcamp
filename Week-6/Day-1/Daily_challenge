@@ -1,0 +1,38 @@
+-- CREATE TABLE actors(
+--     actor_id SERIAL PRIMARY KEY,
+--     first_name VARCHAR (50) NOT NULL,
+--     last_name VARCHAR (100) NOT NULL,
+--     age DATE NOT NULL,
+--     number_oscars SMALLINT NOT NULL
+-- );
+
+-- INSERT INTO actors (first_name, last_name, age, number_oscars)
+-- VALUES('Matt','Damon','08/10/1970', 5);
+
+-- INSERT INTO actors (first_name, last_name, age, number_oscars)
+-- VALUES('George','Clooney','06/05/1961', 2);
+
+-- SELECT * FROM actors;
+
+-- INSERT INTO actors(first_name, last_name, age, number_oscars) VALUES
+-- ('Daniel', 'Radcliffe', '1989-07-23', '7');
+
+-- INSERT INTO actors(first_name, last_name, age, number_oscars) VALUES
+--     ('Natalie', 'Portman', '1981-06-09', '4'),
+--     ('Adam', 'Sandler', '1966-09-09', '10');
+
+-- SELECT * FROM actors;
+-- SELECT * FROM actors;
+
+-- SELECT * FROM actors LIMIT 4;
+-- SELECT * FROM actors ORDER BY last_name DESC LIMIT 4;
+-- SELECT * FROM actors WHERE first_name ILIKE '%e%';
+-- SELECT * FROM actors WHERE number_oscars >= 5;
+
+SELECT * FROM actors;
+-- there are five actors in the table
+INSERT INTO actors(first_name, last_name, number_oscars) VALUES
+('Jennifer', 'Lawrence', '7'); -- doesn't work without age
+
+-- INSERT INTO actors(first_name, last_name, age, number_oscars) VALUES
+-- ('Daniel', 'Radcliffe', '1989-07-23', '7');
